@@ -229,7 +229,7 @@ Scheme
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"TanDark"
+		Econ.Button.BgColor									"255, 0, 255, 255" //TanDark
 		Econ.Button.FgColor									"TanLight"
 		Econ.Button.ArmedBgColor							"TFOrange"
 		Econ.Button.ArmedFgColor							"TanLight"
@@ -249,9 +249,9 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"TanDark" //TanDark
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.ArmedBgColor				"TFOrange" //TFOrange
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
@@ -3029,49 +3029,29 @@ Scheme
 			}
 		}
 		
-		TommyLight18
+		// These are the fonts used in my custom HUD below
+		mainMenuText
 		{
 			"1"
 			{
-				"name"		"MADETOMMY-Light"
+				"name"		"Roboto Bold"
+				"tall"		"17"
+				"antialias" "1"
+			}
+		}
+		
+		regularText
+		{
+			"1"
+			{
+				"name"		"Roboto Condensed"
 				"tall"		"18"
-				"antialias" "1"
-			}
-		}
-		
-		TommyLight20
-		{
-			"1"
-			{
-				"name"		"MADETOMMY-Light"
-				"tall"		"20"
-				"antialias" "1"
-			}
-		}
-		
-		TommyMedium16
-		{
-			"1"
-			{
-				"name"		"MADETOMMY-Medium"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		
-		TommyBold26
-		{
-			"1"
-			{
-				"name"		"MADETOMMY-Bold"
-				"tall"		"26"
 				"antialias" "1"
 			}
 		}
 	}
 
-	// These are the fonts used in my custom HUD
-	
+
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5883,18 +5863,13 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/MADE_TOMMY_Light_PERSONAL USE.otf"
-			"name" "MADETOMMY-Light"
+			"font" "resource/fonts/Roboto-Condensed.ttf"
+			"name" "Roboto Condensed"
 		}
 		"9"
 		{
-			"font" "resource/fonts/MADE_TOMMY_Medium_PERSONAL USE.otf"
-			"name" "MADETOMMY-Medium"
-		}
-		"10"
-		{
-			"font" "resource/fonts/MADE_TOMMY_Bold_PERSONAL USE.otf"
-			"name" "MADETOMMY-Bold"
+			"font" "resource/fonts/Roboto-Bold.ttf"
+			"name" "Roboto Bold"
 		}
 	}
 }

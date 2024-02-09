@@ -76,6 +76,7 @@
 			}		
 		}
 		
+		//not sure what this is for
 		"SaxxySettings"
 		{
 			"xpos"			"0"
@@ -402,6 +403,7 @@
 		}
 	}
 
+	//contracker menu button
 	"QuestLogButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -475,6 +477,7 @@
 		}
 	}
 	
+	//tf2 news thingy
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -543,6 +546,7 @@
 		}
 	}
 	
+	//news panel
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1037,6 +1041,7 @@
 		}
 	}
 	
+	//idk
 	"VRBGPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -1051,6 +1056,7 @@
 		"border"		"MainMenuBGBorder"
 	}
 
+	//idk
 	"VRModeButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1597,6 +1603,7 @@
 		}
 	}
 	
+	//header is in the matchmakingdashboard.res file
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -1610,16 +1617,31 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/main_menu_bottom_panel"
 		"scaleImage"	"1"
-	}				
+	}
+
+	"SidePanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SidePanel"
+		"xpos"			"-2"
+		"ypos"			"cs-0.5"
+		"zpos"			"-50"
+		"wide"			"40"
+		"tall"			"400"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/main_menu_side_panel"
+		"scaleImage"	"1"
+	}
 
 	"CharacterSetupButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-288"
-		"ypos"			"rs1-18"
-		"wide"			"100"
-		"tall"			"26"
+		"xpos"			"r125"
+		"ypos"			"r75"
+		"wide"			"75"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -1627,8 +1649,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"west"
+		"font"			"mainMenuText"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
@@ -1640,21 +1662,10 @@
 			
 		"paintbackground"	"1"
 				
-		"image_drawcolor"	"235 226 202 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"6"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-		}		
+		"defaultFgColor_override"   "98 164 19 255"
+		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"     "148 248 29 255"
+		"armedBgColor_override"		"98 161 19 255"
 	}
 
 	"StoreHasNewItemsImage"
@@ -1767,7 +1778,7 @@
 		}			
 	}
 
-	"TF2SettingsButton"
+	"AdvSettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
@@ -1894,6 +1905,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+		"armedimage_drawColor_override"     "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2218,5 +2230,86 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+	
+	///////////////////////////CUSTOM BUTTONS//////////////////////////
+	"quitButton2"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"quitButton2"
+		"xpos"			"r125"
+		"ypos"			"r50"
+		"zpos"			"3"
+		"wide"			"75"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"QUIT"
+		"font"			"mainMenuText"
+		"textAlignment"	"center"
+//		"dulltext"		"0"
+//		"brighttext"	"0"
+//		"default"		"1"
+		"Command"		"quit"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"   "98 164 19 255"
+		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"     "148 248 29 255"
+		"armedBgColor_override"		"98 161 19 255"
+
+	}
+	
+	"findGameButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"findGameButton"
+		"xpos"			"r125"
+		"ypos"			"r100"
+		"zpos"			"3"
+		"wide"			"75"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"PLAY"
+		"font"			"mainMenuText"
+		"textAlignment"	"center"
+//		"dulltext"		"0"
+//		"brighttext"	"0"
+//		"default"		"1"
+		"Command"		"" //queue_logo_clicked
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override"   "98 164 19 255"
+		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"     "148 248 29 255"
+		"armedBgColor_override"		"98 161 19 255"
+
+	}
+	
+	"quitButton2Text"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"quitButton2Text"
+		"font"			"mainMenuText"
+		"fgcolor"		"TanLight"
+		"xpos"			"9999" //r100
+		"ypos"			"r75"
+		"zpos"			"10"
+		"wide"			"55"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"QUIT"
+		
+		//pin the quit text to the button
+//		"pin_to_sibling" "quitButton2"
+//		"pin_corner_to_sibling" "PIN_TOPRIGHT"
+//		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
 }
