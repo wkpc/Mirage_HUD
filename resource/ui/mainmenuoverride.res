@@ -1638,9 +1638,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"r125"
+		"xpos"			"r133"
 		"ypos"			"r75"
-		"wide"			"75"
+		"wide"			"91"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -1655,7 +1655,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"engine open_charinfo"
-		"labeltext"		"#MMenu_CharacterSetup"
+		"labeltext"		"WARDROBE"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
@@ -1690,8 +1690,8 @@
 		"fieldName"		"GeneralStoreButton"
 		"xpos"			"c-165"
 		"ypos"			"rs1-18"
-		"wide"			"100"
-		"tall"			"26"
+		"wide"			"30"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -1704,7 +1704,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"labeltext" "#MMenu_Shop"
+		"labeltext" ""
 		"command" "engine open_store"
 		"proportionaltoparent"	"1"
 
@@ -1713,7 +1713,8 @@
 			
 		"paintbackground"	"1"
 				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1761,7 +1762,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1808,7 +1810,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"defaultFgColor_override"   "98 164 19 255"
+//		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"     "148 248 29 255"
+//		"armedBgColor_override"		"98 161 19 255"
+		
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1857,7 +1865,8 @@
 		"PaintBackgroundType" "0"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1904,8 +1913,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
-		"armedimage_drawColor_override"     "148 248 29 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1952,7 +1961,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1999,7 +2009,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2046,7 +2057,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2093,7 +2105,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"	"MainMenuSubButtonBorder"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2139,7 +2152,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"defaultFgColor_override"   "98 164 19 255"
+		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"     "148 248 29 255"
+		"armedBgColor_override"		"98 161 19 255"
+		
+		"image_drawcolor"	"98 164 19 255"
+		"image_armedColor"  "148 248 29 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2234,33 +2253,81 @@
 	
 	///////////////////////////CUSTOM BUTTONS//////////////////////////
 	"quitButton2"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"quitButton2"
-		"xpos"			"r125"
-		"ypos"			"r50"
-		"zpos"			"3"
-		"wide"			"75"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"QUIT"
-		"font"			"mainMenuText"
-		"textAlignment"	"center"
-//		"dulltext"		"0"
-//		"brighttext"	"0"
-//		"default"		"1"
-		"Command"		"quit"
+    {
+        "ControlName"                                "EditablePanel"
+        "fieldname"                                  "quitButton2"
+        "xpos"                                       "r125"
+        "ypos"                                       "r50"
+        "zpos"                                       "3"
+        "wide"                                       "75"
+        "tall"                                       "25"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"defaultFgColor_override"   "98 164 19 255"
-		"defaultBgColor_override"	"Blank"
-		"armedFgColor_override"     "148 248 29 255"
-		"armedBgColor_override"		"98 161 19 255"
+        "SubButton"
+        {
+            "ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"75"
+			"tall"			"25"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"QUIT"
+			"font"			"mainMenuText"
+			"textAlignment"	"center"
+	//		"dulltext"		"0"
+	//		"brighttext"	"0"
+	//		"default"		"1"
+			"Command"		"quit"
 
-	}
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override"   "98 164 19 255"
+			"defaultBgColor_override"	"Blank"
+			"armedFgColor_override"     "148 248 29 255"
+			"armedBgColor_override"		"98 161 19 255"
+        }
+    }
+	
+	"disconnectButton2"
+    {
+        "ControlName"                                "EditablePanel"
+        "fieldname"                                  "disconnectButton2"
+        "xpos"                                       "r125"
+        "ypos"                                       "r50"
+        "zpos"                                       "3"
+        "wide"                                       "100"
+        "tall"                                       "25"
+
+        "SubButton"
+        {
+            "ControlName"                            "CExImageButton"
+            "fieldName"                              "SubButton"
+            "xpos"                                   "0"
+            "ypos"                                   "0"
+            "wide"                                   "100"
+            "tall"                                   "25"
+            "visible"                                "1"
+            "enabled"                                "1"
+            "proportionaltoparent"                   "1"
+            "font"                                   "mainMenuText"
+            "AllCaps"                                "1"
+            "textAlignment"                          "center"
+            "sound_depressed"                        "UI/buttonclick.wav"
+            "sound_released"                         "UI/buttonclickrelease.wav"
+			"command"								 "disconnect"
+
+            "paintbackground"                        "0"
+            "paintborder"                            "0"
+
+            "defaultFgColor_override"   "98 164 19 255"
+			"defaultBgColor_override"	"Blank"
+			"armedFgColor_override"     "148 248 29 255"
+			"armedBgColor_override"		"98 161 19 255"
+        }
+    }
 	
 	"findGameButton"
 	{
@@ -2273,13 +2340,13 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"PLAY"
+		"labelText"		"DEBUT"
 		"font"			"mainMenuText"
 		"textAlignment"	"center"
 //		"dulltext"		"0"
 //		"brighttext"	"0"
 //		"default"		"1"
-		"Command"		"" //queue_logo_clicked
+		"Command"		"OpenServerBrowser" //queue_logo_clicked
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
