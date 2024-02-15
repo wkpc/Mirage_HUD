@@ -54,7 +54,7 @@
 	"disconnectButton2"
     {
         "label"    "DISCONNECT"
-        "command" "disconnect"
+        "command" "disconnectNoConfirm"
         "OnlyInGame"    "1"
     }
 }

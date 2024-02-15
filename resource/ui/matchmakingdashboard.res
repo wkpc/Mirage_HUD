@@ -135,7 +135,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"40"
+			"xpos"			"35"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -156,7 +156,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"64"
+			"xpos"			"59"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -177,7 +177,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"88"
+			"xpos"			"83"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -198,7 +198,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"112"
+			"xpos"			"107"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -219,7 +219,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"136"
+			"xpos"			"131"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -240,7 +240,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"160"
+			"xpos"			"155"
 			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"

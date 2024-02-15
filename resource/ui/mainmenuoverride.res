@@ -2317,7 +2317,6 @@
             "textAlignment"                          "center"
             "sound_depressed"                        "UI/buttonclick.wav"
             "sound_released"                         "UI/buttonclickrelease.wav"
-			"command"								 "disconnect"
 
             "paintbackground"                        "0"
             "paintborder"                            "0"
