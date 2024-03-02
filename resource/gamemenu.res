@@ -15,18 +15,14 @@
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
 	}
-	"RequestCoachButton"
+	"RequestCoachButton" //removed
 	{
 		"label"			""
 		"command"		"engine cl_coach_find_coach"
@@ -40,10 +36,29 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
 	}
+	
+	//////////////////// CUSTOM OR MODIFIED BUTTONS //////////////////////
 	//in menu buttons
-	"quitButton2"
+	"NewUserForumsButton"
+	{
+		"label"			""
+		"command"		"view_newuser_forums"
+		"OnlyAtMenu"	"1"
+	}
+	"CommentaryButton"
+	{
+		"label"			""
+		"command"		"OpenLoadSingleplayerCommentaryDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"WorkshopButton"
+	{
+		"label"			""
+		"command"		"engine OpenSteamWorkshopDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"QuitButton2"
     {
         "label"    "QUIT"
         "command" "quit"
@@ -51,10 +66,48 @@
     }
 	
 	//in game buttons
-	"disconnectButton2"
+	"DisconnectButton2"
     {
         "label"    "DISCONNECT"
-        "command" "disconnectNoConfirm"
+        "command" "disconnect"
         "OnlyInGame"    "1"
+    }
+	
+	//buttons in both
+	"FindGameButton"
+    {
+        "label"    "DEBUT"
+        "command" "OpenServerBrowser"
+        "OnlyInGame"    "0"
+    }
+	"SettingsButton"
+    {
+        "label"    ""
+        "command" "OpenOptionsDialog"
+        "OnlyInGame"    "0"
+    }
+	"TF2SettingsButton" //advanced settings
+    {
+        "label"    ""
+        "command" "opentf2options"
+        "OnlyInGame"    "0"
+    }
+	"AchievementsButton"
+    {
+        "label"    ""
+        "command" "OpenAchievementsDialog"
+        "OnlyInGame"    "0"
+    }
+	"ReplayButton"
+    {
+        "label"    ""
+        "command" "engine replay_reloadbrowser"
+        "OnlyInGame"    "0"
+    }
+	"GeneralStoreButton"
+    {
+        "label"    ""
+        "command" "engine open_store"
+        "OnlyInGame"    "0"
     }
 }
