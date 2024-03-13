@@ -212,7 +212,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
 		"xpos"			"c-290"
-		"ypos"			"94"
+		"ypos"			"9999" //94
 		"zpos"			"-99"
 		"wide"			"260"
 		"tall"			"100"
