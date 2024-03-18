@@ -34,15 +34,15 @@
 		"itemcountcolor_noitems"					"White"
 	}
 
-	"ScoutCustom"
+	"ScoutCustomGlow"
 	{
 		"ControlName"								"CExImageButton"
-		"fieldName"									"ScoutCustom"
-		"xpos"										"0"
+		"fieldName"									"ScoutCustomGlow"
+		"xpos"										"-43"
 		"ypos"										"0"
 		"zpos"										"10"
-		"wide"										"95"
-		"tall"										"363"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -62,10 +62,13 @@
 		"defaultFgColor_override"					"Blank"
 		"armedFgColor_override"						"Blank"
 		"depressedFgColor_override"					"Blank"
+		
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
 
-		"pin_to_sibling"							"SoldierCustom"
+		"pin_to_sibling"							"SoldierCustomGlow"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -74,24 +77,42 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/scout_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"SoldierCustom"
+	
+	"ScoutCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"SoldierCustom"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"ScoutCustomImage"
 		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
+		"ypos"										"-3"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/scout_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"ScoutCustomGlow"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+
+	"SoldierCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"SoldierCustomGlow"
+		"xpos"										"-44"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -111,10 +132,13 @@
 		"defaultFgColor_override"					"Blank"
 		"armedFgColor_override"						"Blank"
 		"depressedFgColor_override"					"Blank"
+		
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
 
-		"pin_to_sibling"							"PyroCustom"
+		"pin_to_sibling"							"PyroCustomGlow"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -123,24 +147,42 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/soldier_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"PyroCustom"
+	
+	"SoldierCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"PyroCustom"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"SoldierCustomImage"
+		"xpos"										"1"
+		"ypos"										"-3"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/soldier_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"SoldierCustomGlow"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+
+	"PyroCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"PyroCustomGlow"
+		"xpos"										"-44"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -160,10 +202,13 @@
 		"defaultFgColor_override"					"Blank"
 		"armedFgColor_override"						"Blank"
 		"depressedFgColor_override"					"Blank"
+		
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
 
-		"pin_to_sibling"							"DemomanCustom"
+		"pin_to_sibling"							"DemomanCustomGlow"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -172,24 +217,42 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/pyro_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"DemomanCustom"
+	
+	"PyroCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"DemomanCustom"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PyroCustomImage"
+		"xpos"										"1"
+		"ypos"										"-3"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/pyro_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"PyroCustomGlow"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+
+	"DemomanCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"DemomanCustomGlow"
+		"xpos"										"-44"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -209,10 +272,13 @@
 		"defaultFgColor_override"					"Blank"
 		"armedFgColor_override"						"Blank"
 		"depressedFgColor_override"					"Blank"
+		
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
 
-		"pin_to_sibling"							"CustomHeavy"
+		"pin_to_sibling"							"CustomHeavyGlow"
 		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -221,25 +287,43 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/demoman_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
 	
-	//Used as a anchor to move all the classes buttons//
-	"CustomHeavy"
+	"DemomanCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CustomHeavy"
-		"xpos"										"cs-0.5"
-		"ypos"										"12"
-		"zpos"										"10"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"DemomanCustomImage"
+		"xpos"										"1"
+		"ypos"										"-3"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/demoman_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"DemomanCustomGlow"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+	
+	//anchor for all the glows
+	"CustomHeavyGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CustomHeavyGlow"
+		"xpos"										"cs-0.5"
+		"ypos"										"10"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -263,6 +347,9 @@
 		"border_default"							"Theme_Transparent_50"
 		"border_armed"								"Orange_Transparent_50"
 		
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -270,24 +357,39 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/heavy_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"EngineerCustom"
+	
+	//anchor for all the class images to the right
+	"CustomHeavyImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"EngineerCustom"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"10"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CustomHeavyImage"
+		"xpos"										"cs-0.5"
+		"ypos"										"12"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/heavy_loadout_image"
+		"scaleimage"								"1"
+	}
+
+	"EngineerCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"EngineerCustomGlow"
+		"xpos"										"45"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"0"
@@ -311,9 +413,12 @@
 		"border_default"							"Theme_Transparent_50"
 		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling"							"CustomHeavy"
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
+
+		"pin_to_sibling"							"CustomHeavyGlow"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -322,24 +427,43 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/menu/engineer_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"MedicCustom"
+	
+	"EngineerCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"MedicCustom"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"EngineerCustomImage"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"10"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/engineer_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"CustomHeavyImage"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
+	"MedicCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"MedicCustomGlow"
+		"xpos"										"44"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -360,9 +484,12 @@
 		"armedFgColor_override"						"Blank"
 		"depressedFgColor_override"					"Blank"
 
-		"pin_to_sibling"							"EngineerCustom"
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
+
+		"pin_to_sibling"							"EngineerCustomGlow"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -371,24 +498,43 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"replay/thumbnails/menu/medic_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"SniperCustom"
+	
+	"MedicCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"SniperCustom"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MedicCustomImage"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"10"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/medic_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"EngineerCustomImage"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
+	"SniperCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"SniperCustomGlow"
+		"xpos"										"45"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -412,9 +558,12 @@
 		"border_default"							"Theme_Transparent_50"
 		"border_armed"								"Orange_Transparent_50"
 
-		"pin_to_sibling"							"MedicCustom"
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
+
+		"pin_to_sibling"							"MedicCustomGlow"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -423,24 +572,42 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/sniper_loadout_image"
 			"scaleImage"	"1"
 		}
 	}
-
-	"SpyCustom"
+	
+	"SniperCustomImage"
 	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"SpyCustom"
+		"ControlName"								"ImagePanel"
+		"fieldName"									"SniperCustomImage"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"10"
+		"zpos"										"9"
 		"wide"										"95"
 		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/sniper_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"MedicCustomImage"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+
+	"SpyCustomGlow"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"SpyCustomGlow"
+		"xpos"										"45"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"101"
+		"tall"										"392"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									""
@@ -463,10 +630,13 @@
 
 		"border_default"							"Theme_Transparent_50"
 		"border_armed"								"Orange_Transparent_50"
+		
+		"image_armed"								"replay/thumbnails/menu/loadout_hover_outline"
+		"image_default"								"replay/thumbnails/menu/transparent"
 
-		"pin_to_sibling"							"SniperCustom"
+		"pin_to_sibling"							"SniperCustomGlow"
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
 		
 		"SubImage"
 		{
@@ -475,13 +645,31 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"95"
-			"tall"			"363"
+			"wide"			"101"
+			"tall"			"392"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/spy_loadout_image"
 			"scaleImage"	"1"
 		}
+	}
+	
+	"SpyCustomImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"SpyCustomImage"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"9"
+		"wide"										"95"
+		"tall"										"363"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/spy_loadout_image"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"SniperCustomImage"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 
 	"SelectLabel"									//Select a class to modify loadout label
@@ -597,7 +785,7 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"Armory"
 		"xpos"										"210"
-		"ypos"										"c138" //c138
+		"ypos"										"c138" //no idea why the r positioning doesnt work
 		"zpos"										"9999" //10
 		"wide"										"90"
 		"tall"										"18"
