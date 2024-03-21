@@ -3049,6 +3049,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		loadoutText
+		{
+			"1"
+			{
+				"name"		"Cavier Dreams Italic"
+				"tall"		"11"
+				"antialias" "1"
+			}
+		}
 	}
 
 
@@ -5870,6 +5880,11 @@ Scheme
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"
+		}
+		"10"
+		{
+			"font" "resource/fonts/CaviarDreams_Italic.ttf"
+			"name" "Cavier Dreams Italic"
 		}
 	}
 }

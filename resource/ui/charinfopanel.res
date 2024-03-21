@@ -2,13 +2,6 @@
 
 "Resource/UI/CharInfoPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"										"c-13"
-		"ypos"										"8"
-		"zpos"										"20000"
-	}
-
 	"character_info"
 	{
 		"ControlName"								"EditablePanel"
@@ -76,9 +69,9 @@
 		{
 			"textinsetx"							"2"
 			"textinsety"							"0"
-			"font"									"Size_16"
-			"selectedcolor"							"White"
-			"unselectedcolor"						"190 200 215 255"
+			"font"									"loadoutText"
+			"selectedcolor"							"255 255 255 255"
+			"unselectedcolor"						"138 130 118 255"
 			"defaultBgColor_override"				"Blank"
 			"paintbackground"						"0"
 			"activeborder_override"					"NoBorder"

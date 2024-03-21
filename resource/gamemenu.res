@@ -15,12 +15,14 @@
 		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
+		"tooltip" 		"#MMenu_CallVote"
 	}
 	"MutePlayersButton"
 	{
 		"label"			""
 		"command"		"OpenMutePlayerDialog"
 		"OnlyInGame"	"1"
+		"tooltip" 		"#MMenu_MutePlayers"
 	}
 	"RequestCoachButton" //removed
 	{
@@ -36,6 +38,7 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 	
 	//////////////////// CUSTOM OR MODIFIED BUTTONS //////////////////////
@@ -45,6 +48,7 @@
 		"label"			""
 		"command"		"view_newuser_forums"
 		"OnlyAtMenu"	"1"
+		"tooltip"		"#MMenu_NewUserForums"
 	}
 	"CommentaryButton"
 	{

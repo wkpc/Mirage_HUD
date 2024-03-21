@@ -205,7 +205,36 @@
 		"scaleImage"	"0"
 		"mouseinputenabled"	"0"
 	}	
+	
+	"BackgroundFooter"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BackgroundFooter"
+		"xpos"			"0"
+		"ypos"			"rs0.99"
+		"zpos"			"-50"
+		"wide"			"960"
+		"tall"			"156"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/main_menu_bottom_panel"
+		"scaleImage"	"1"
+	}
 
+	"SidePanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SidePanel"
+		"xpos"			"-2"
+		"ypos"			"cs-0.5"
+		"zpos"			"-50"
+		"wide"			"40"
+		"tall"			"375"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menu/main_menu_side_panel"
+		"scaleImage"	"1"
+	}
 
 	"NoGCMessage"
 	{
@@ -408,11 +437,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"4"
+		"ypos"			"337"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"25"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -451,10 +480,14 @@
 				
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"0"
-			"paintborder"		"0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			
+			"defaultFgColor_override"   "52 94 0 255" //for some reason colors look lighter for this button
+			"defaultBgColor_override"	"Blank"
+			"armedFgColor_override"     "148 248 29 255"
+			"armedBgColor_override"		"98 161 19 255"
+			
+			"image_drawcolor"	"98 164 19 255"
+			"image_armedColor"  "148 248 29 255"
 
 			"SubImage"
 			{
@@ -468,7 +501,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_quests_pda"
+				"image"			"replay/thumbnails/menu/contracker_button"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -482,11 +515,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c268"
-		"ypos"			"28"
+		"xpos"			"4"
+		"ypos"			"367"
 		"zpos"			"1"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"25"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -505,8 +538,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -525,9 +558,14 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
+			
+			"defaultFgColor_override"   "148 248 29 255"
+			"defaultBgColor_override"	"Blank"
+			"armedFgColor_override"     "148 248 29 255"
+			"armedBgColor_override"		"98 161 19 255"
+			
+			"image_drawcolor"	"98 164 19 255"
+			"image_armedColor"  "148 248 29 255"
 
 			"SubImage"
 			{
@@ -536,11 +574,11 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_MOTD"
+				"image"			"replay/thumbnails/menu/button_motd"
 				"scaleImage"	"1"
 			}
 		}
@@ -1335,11 +1373,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"4"
-		"ypos"			"235"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"11"
 		"wide"			"30"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"MutePlayersButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		SubButton
 		{
@@ -1391,12 +1433,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"4"
-		"ypos"			"145"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
 		"visible"		"1"
+		
+		"pin_to_sibling"							"TF2SettingsButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		SubButton
 		{
@@ -1448,11 +1494,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"4"
-		"ypos"			"205"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"AchievementsButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		SubButton
 		{
@@ -1567,37 +1617,6 @@
 			}				
 		}
 	}
-	
-	//header is in the matchmakingdashboard.res file
-	"BackgroundFooter"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
-		"ypos"			"rs0.99"
-		"zpos"			"-50"
-		"wide"			"960"
-		"tall"			"156"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/main_menu_bottom_panel"
-		"scaleImage"	"1"
-	}
-
-	"SidePanel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SidePanel"
-		"xpos"			"-2"
-		"ypos"			"cs-0.55"
-		"zpos"			"-50"
-		"wide"			"40"
-		"tall"			"325"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/menu/main_menu_side_panel"
-		"scaleImage"	"1"
-	}
 
 	"CharacterSetupButton"
 	{
@@ -1633,31 +1652,18 @@
 		"armedBgColor_override"		"98 161 19 255"
 	}
 
-	//removed
-	"StoreHasNewItemsImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"StoreHasNewItemsImage"
-		"xpos"			"c-85"
-		"ypos"			"9999" //r50
-		"zpos"			"13"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../vgui/new"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-	}
-
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GeneralStoreButton"
-		"xpos"			"5"
-		"ypos"			"325"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"ReportBugButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		SubButton
 		{
@@ -1704,12 +1710,13 @@
 		}
 	}
 
+	//anchors the rest of the buttons in the side panel, except for contracker and news buttons
 	"SettingsButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
 		"xpos"			"4"
-		"ypos"			"85"
+		"ypos"			"84"
 		"zpos"			"1"
 		"wide"			"25"
 		"tall"			"25"
@@ -1763,11 +1770,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"4"
-		"ypos"			"115"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"SettingsButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 	
 		SubButton
 		{
@@ -1819,12 +1830,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"4"
-		"ypos"			"145"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
 
+		"pin_to_sibling"							"TF2SettingsButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+		
 		SubButton
 		{
 			"ControlName"	"CExImageButton"
@@ -1874,11 +1889,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"4"
-		"ypos"			"175"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"3"
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"NewUserForumsButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		SubButton
 		{
@@ -1929,12 +1948,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"4"
-		"ypos"			"205"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"4"
 		"wide"			"25"
 		"tall"			"25"
 		
+		"pin_to_sibling"							"AchievementsButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+
 		SubButton
 		{
 			"ControlName"	"CExImageButton"
@@ -2034,11 +2057,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WorkshopButton"
-		"xpos"			"4"
-		"ypos"			"235"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"4"
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"CommentaryButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
+
 
 		SubButton
 		{
@@ -2089,11 +2117,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ReplayButton"
-		"xpos"			"4"
-		"ypos"			"265"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
+		
+		"pin_to_sibling"							"WorkshopButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 
 		SubButton
 		{
@@ -2144,8 +2176,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"4"
-		"ypos"			"295"
+		"xpos"			"0"
+		"ypos"			"-28"
 		"zpos"			"4"
 		"wide"			"25"
 		"tall"			"25"
@@ -2168,6 +2200,10 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"pin_to_sibling"							"ReplayButton"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPLEFT"
 		
 		"defaultFgColor_override"   "98 164 19 255"
 		"defaultBgColor_override"	"Blank"
@@ -2234,8 +2270,9 @@
 			"scaleImage"	"1"
 			"image"			"glyph_quit"
 		}				
-	}			
-
+	}
+	
+	//what is this??
 	"icon_generator"
 	{
 		"ControlName"		"CEmbeddedItemModelPanel"
