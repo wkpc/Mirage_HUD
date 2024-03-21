@@ -698,7 +698,7 @@
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"90"
-		"tall"										"18"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -721,7 +721,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"BackpackIcon"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-2"
 		"zpos"										"0"
 		"wide"										"90"
 		"tall"										"18"
@@ -731,8 +731,8 @@
 		"scaleimage"								"1"
 		
 		"pin_to_sibling"							"Backpack"
-		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"Crafting"
@@ -743,7 +743,7 @@
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"90"
-		"tall"										"18"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -766,7 +766,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"CraftingIcon"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-2"
 		"zpos"										"0"
 		"wide"										"90"
 		"tall"										"18"
@@ -776,8 +776,8 @@
 		"scaleimage"								"1"
 		
 		"pin_to_sibling"							"Crafting"
-		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"Armory"
@@ -785,10 +785,10 @@
 		"ControlName"								"CExImageButton"
 		"fieldName"									"Armory"
 		"xpos"										"210"
-		"ypos"										"c138" //no idea why the r positioning doesnt work
+		"ypos"										"c136" //no idea why the r positioning doesnt work
 		"zpos"										"15"
 		"wide"										"90"
-		"tall"										"18"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -811,7 +811,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ArmoryIcon"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-2"
 		"zpos"										"0"
 		"wide"										"90"
 		"tall"										"18"
@@ -821,8 +821,8 @@
 		"scaleimage"								"1"
 		
 		"pin_to_sibling"							"Armory"
-		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"Trade"
@@ -833,7 +833,7 @@
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"90"
-		"tall"										"18"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -856,7 +856,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"TradeIcon"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-2"
 		"zpos"										"0"
 		"wide"										"90"
 		"tall"										"18"
@@ -866,8 +866,8 @@
 		"scaleimage"								"1"
 		
 		"pin_to_sibling"							"Trade"
-		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"Paints"
@@ -878,7 +878,7 @@
 		"ypos"										"0"
 		"zpos"										"15"
 		"wide"										"90"
-		"tall"										"18"
+		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
 		"textAlignment"								"center"
@@ -901,7 +901,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"PaintsIcon"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-2"
 		"zpos"										"0"
 		"wide"										"90"
 		"tall"										"18"
@@ -911,8 +911,8 @@
 		"scaleimage"								"1"
 		
 		"pin_to_sibling"							"Paints"
-		"pin_corner_to_sibling"						"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"						"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"						"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
 	}
 
 	"class_loadout_panel"
