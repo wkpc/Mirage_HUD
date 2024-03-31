@@ -1,4 +1,4 @@
-//on your way loading screen
+//stats screen
 
 "Resource/UI/winpanel.res"
 {
@@ -10,243 +10,86 @@
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"	"1"
+		"visible"	"0"
 		"enabled"	"1"
+		"bgcolor_override"	"46 43 42 255"
 	}
-
 	"MainBackground"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"
-	}	
-
-	"MapInfo"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"MapInfo"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
-		"tall"		"480"
-		"visible"	"0"
-		"enabled"	"1"
-		"bgcolor_override"	"46 43 42 255"
-	
-		"Background"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"640"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"stamp_background_map"
-			"scaleImage"		"1"
-		}
-
-		"MapImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MapImage"
-			"xpos"			"30"
-			"ypos"			"45"
-			"zpos"			"2"
-			"wide"			"300"
-			"tall"			"300"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			""
-			"scaleImage"	"1"		
-		}
-	
-		"ContributedLabel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"	"ContributedLabel"
-			"xpos"			"30"
-			"ypos"			"345"
-			"zpos"			"40"
-			"wide"			"300"
-			"tall"			"100"
-			"visible"		"0"
-			"enabled"		"1"
-	
-			"BG"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"BG"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"300"
-				"tall"			"55"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"border"		"TFThinLineBorder"
-			}
-	
-			"ActualLabel"
-			{
-				"ControlName"		"CExLabel"
-				"fieldName"		"ActualLabel"
-				"font"			"HudFontSmallBold"
-				"labelText"		"#TF_Contributed"
-				"textAlignment"		"center"
-				"xpos"			"10"
-				"ypos"			"0"
-				"zpos"			"40"
-				"wide"			"280"
-				"tall"			"55"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"centerwrap"	"1"
-				"wrap"			"1"
-			}					
-		}
-	
-		"InfoBG"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"InfoBG"
-			"xpos"			"c+10"
-			"ypos"			"120"
-			"wide"			"285"
-			"tall"			"280"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"border"		"TFThinLineBorder"
-		}
-
-		"Title"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Title"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%title%"
-			"textAlignment"	"north"
-			"xpos"			"c20"
-			"ypos"			"135"
-			"zpos"			"2"
-			"wide"			"275"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override" "255 181 50 255"
-		}
-		"MapAuthors"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MapAuthors"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%authors%"
-			"textAlignment"	"north"
-			"xpos"			"c20"
-			"ypos"			"155"
-			"zpos"			"2"
-			"wide"			"275"
-			"tall"			"275"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"wrap"			"0"
-		}
-
-		"MapLeaderboardTitle"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MapLeaderboardTitle"
-			"font"			"HudFontSmallBold"
-			"labelText"		"%map_leaderboard_title%"
-			"textAlignment"	"north"
-			"xpos"			"c20"
-			"ypos"			"230"
-			"zpos"			"2"
-			"wide"			"275"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override" "137 191 60 255"
-		}
 	}
-
-	"OnYourWayLabel"
+	"OnYourWayLabel" [$WIN32]
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontMediumBold"
 		"labelText"		"#LoadingMap"
 		"textAlignment"		"center"
-		"xpos"			"c+10"
-		"ypos"			"30"
-		"zpos"			"40"
-		"wide"			"285"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"50"
+		"wide"			"360"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "173 168 148 255"
 	}					
 	"MapLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontMediumBigBold" [$WIN32]
+		"font"			"HudFontMediumBold" [$X360]
 		"labelText"		"%maplabel%"
-		"textAlignment"		"center"
-		"xpos"			"c-25"
-		"ypos"			"55"
+		"textAlignment"		"center" [$WIN32]
+		"textAlignment"		"west" [$X360]
+		"xpos"			"5" [$WIN32]
+		"xpos"			"60" [$X360]
+		"ypos"			"92"
+		"ypos_hidef"		"425"
+		"ypos_lodef"		"425"
 		"zpos"			"50"
-		"wide"			"350"
+		"wide"			"350" [$WIN32]
+		"wide"			"600" [$X360]
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
-	"MapType"
+	"MapType" [$WIN32]
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
-		"xpos"			"c-25"
-		"ypos"			"80"
+		"xpos"			"5"
+		"ypos"			"117"
 		"zpos"			"50"
 		"wide"			"350"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
-	}					
+	}						
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"StatData"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"-130"
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
@@ -280,7 +123,7 @@
 				"ypos_hidef"			"49"
 				"ypos_lodef"			"49"
 				"zpos"			"5"
-				"wide"			"150" [$WIN32]
+				"wide"			"150" [!$X360]
 				"wide"			"170" [$X360]
 				"tall"			"20"
 				"autoResize"	"0"
@@ -1804,8 +1647,6 @@
 			"wide"			"200"
 			"wide_hidef"			"225"
 			"tall"			"260"
-			"tall_hidef"			"633"
-			"tall_lodef"			"633"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -2603,7 +2444,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TipImage"
 		"xpos"			"c-285"
-		"ypos"			"412"
+		"ypos"			"270"
 		"zpos"			"12"
 		"wide"			"35"
 		"tall"			"35"
@@ -2625,9 +2466,9 @@
 		"xpos"			"c-245"
 		"xpos_lodef"			"c-180"
 		"xpos_hidef"			"c-180"
-		"ypos"			"405"
-		"ypos_hidef"			"362"
-		"ypos_lodef"			"362"
+		"ypos"			"263"
+		"ypos_hidef"			"262"
+		"ypos_lodef"			"262"
 		"zpos"			"12"
 		"wide"			"350"
 		"wide_hidef"		"360"
@@ -2693,7 +2534,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Close"
 		"textAlignment"	"center"

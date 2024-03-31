@@ -3059,6 +3059,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		classSelectionNumbers
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Regular"
+				"tall"		"25"
+				"antialias" "1"
+			}
+		}
 	}
 
 
@@ -5885,6 +5895,11 @@ Scheme
 		{
 			"font" "resource/fonts/CaviarDreams_Italic.ttf"
 			"name" "Cavier Dreams Italic"
+		}
+		"11"
+		{
+			"font" "resource/fonts/LEMONMILK-Regular.ttf"
+			"name" "LEMON MILK Regular"
 		}
 	}
 }
