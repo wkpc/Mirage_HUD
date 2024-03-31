@@ -1618,40 +1618,6 @@
 		}
 	}
 
-	"CharacterSetupButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CharacterSetupButton"
-		"xpos"			"r133"
-		"ypos"			"r75"
-		"wide"			"91"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"textinsetx"	"25"
-		"use_proportional_insets" "1"
-		"font"			"mainMenuText"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"command"		"engine open_charinfo"
-		"labeltext"		"WARDROBE"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"proportionaltoparent"	"1"
-			
-		"paintbackground"	"1"
-				
-		"defaultFgColor_override"   "98 164 19 255"
-		"defaultBgColor_override"	"Blank"
-		"armedFgColor_override"     "148 248 29 255"
-		"armedBgColor_override"		"98 161 19 255"
-	}
-
 	"GeneralStoreButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2306,119 +2272,221 @@
 	}
 	
 	///////////////////////////CUSTOM BUTTONS//////////////////////////
+	//commands are in gamemenu.res
 	"FindGameButton"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"FindGameButton"
-		"xpos"			"r125"
-		"ypos"			"r100"
-		"zpos"			"3"
-		"wide"			"75"
-		"tall"			"25"
-//		"Command"		"OpenServerBrowser" //queue_logo_clicked
+		"ControlName"								"EditablePanel"
+		"fieldName"									"FindGameButton"
+		"xpos"										"r220"
+		"ypos"										"r110"
+		"zpos"										"3"
+		"wide"										"220"
+		"tall"										"18"
 
 		SubButton
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"75"
-			"tall"			"25"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"DEBUT"
-			"font"			"mainMenuText"
-			"textAlignment"	"center"
-	//		"dulltext"		"0"
-	//		"brighttext"	"0"
-	//		"default"		"1"
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"220"
+			"tall"									"18"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"DEBUT"
+			"font"									"mainMenuText"
+			"textAlignment"							"center"
+			"textinsetx"							"-120"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"   "98 164 19 255"
-			"defaultBgColor_override"	"Blank"
-			"armedFgColor_override"     "148 248 29 255"
-			"armedBgColor_override"		"98 161 19 255"
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override"  				"98 164 19 255"
+			"armedFgColor_override"     			"148 248 29 255"
+			
+			"image_armed"							"replay/thumbnails/menu/debut_button"
+			"image_default"							"replay/thumbnails/menu/transparent"
+			"scaleImage"							"1"
+			
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"220"
+				"tall"								"18"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+			}
+		}
+	}
+	
+	"CharacterSetupButton"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldName"									"CharacterSetupButton"
+		"xpos"										"r220"
+		"ypos"										"r88"
+		"zpos"										"3"
+		"wide"										"220"
+		"tall"										"18"
+
+		SubButton
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"220"
+			"tall"									"18"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"WARDROBE"
+			"font"									"mainMenuText"
+			"textAlignment"							"center"
+			"textinsetx"							"-120"
+
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override"  				"98 164 19 255"
+			"armedFgColor_override"     			"148 248 29 255"
+			
+			"image_armed"							"replay/thumbnails/menu/wardrobe_button"
+			"image_default"							"replay/thumbnails/menu/transparent"
+			"scaleImage"							"1"
+			
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"220"
+				"tall"								"18"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+			}
 		}
 	}
 	
 	"QuitButton2"
     {
-        "ControlName"                                "EditablePanel"
-        "fieldname"                                  "QuitButton2"
-        "xpos"                                       "r125"
-        "ypos"                                       "r50"
-        "zpos"                                       "3"
-        "wide"                                       "75"
-        "tall"                                       "25"
+        "ControlName"                               "EditablePanel"
+        "fieldname"                                 "QuitButton2"
+        "xpos"                                      "r220"
+        "ypos"                                      "r66"
+        "zpos"                                      "3"
+        "wide"                                      "220"
+        "tall"                                      "18"
 
         "SubButton"
         {
-            "ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"75"
-			"tall"			"25"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"QUIT"
-			"font"			"mainMenuText"
-			"textAlignment"	"center"
-	//		"dulltext"		"0"
-	//		"brighttext"	"0"
-	//		"default"		"1"
-			"Command"		"quit"
+            "ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"220"
+			"tall"									"18"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"QUIT"
+			"font"									"mainMenuText"
+			"textAlignment"							"center"
+			"textinsetx"							"-125"
 
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"   "98 164 19 255"
-			"defaultBgColor_override"	"Blank"
-			"armedFgColor_override"     "148 248 29 255"
-			"armedBgColor_override"		"98 161 19 255"
+			"paintbackground"						"0"
+			
+			"defaultFgColor_override"				"98 164 19 255"
+			"armedFgColor_override"     			"148 248 29 255"
+			
+			"image_armed"							"replay/thumbnails/menu/quit_button"
+			"image_default"							"replay/thumbnails/menu/transparent"
+			"scaleImage"							"1"
+			
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"220"
+				"tall"								"18"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+			}
         }
     }
 	
 	"DisconnectButton2"
     {
-        "ControlName"                                "EditablePanel"
-        "fieldname"                                  "DisconnectButton2"
-        "xpos"                                       "r125"
-        "ypos"                                       "r50"
-        "zpos"                                       "3"
-        "wide"                                       "100"
-        "tall"                                       "25"
+        "ControlName"								"EditablePanel"
+        "fieldname"                                 "DisconnectButton2"
+        "xpos"                                      "r220"
+        "ypos"                                      "r66"
+        "zpos"                                      "3"
+        "wide"                                      "220"
+        "tall"                                      "18"
 
         "SubButton"
         {
-            "ControlName"                            "CExImageButton"
-            "fieldName"                              "SubButton"
-            "xpos"                                   "0"
-            "ypos"                                   "0"
-            "wide"                                   "100"
-            "tall"                                   "25"
-            "visible"                                "1"
-            "enabled"                                "1"
-            "proportionaltoparent"                   "1"
-            "font"                                   "mainMenuText"
-            "AllCaps"                                "1"
-            "textAlignment"                          "center"
-            "sound_depressed"                        "UI/buttonclick.wav"
-            "sound_released"                         "UI/buttonclickrelease.wav"
-			"command"								 "disconnect"
+            "ControlName"                           "CExImageButton"
+            "fieldName"                             "SubButton"
+            "xpos"                                  "0"
+            "ypos"                                  "0"
+            "wide"                                  "220"
+            "tall"                                  "18"
+            "visible"                               "1"
+            "enabled"                               "1"
+            "proportionaltoparent"                  "1"
+            "font"                                  "mainMenuText"
+            "AllCaps"                               "1"
+            "textAlignment"                         "center"
+			"textinsetx"							"-125"
+			
+            "sound_depressed"                       "UI/buttonclick.wav"
+            "sound_released"                        "UI/buttonclickrelease.wav"
 
-            "paintbackground"                        "0"
-            "paintborder"                            "0"
 
-            "defaultFgColor_override"   "98 164 19 255"
-			"defaultBgColor_override"	"Blank"
-			"armedFgColor_override"     "148 248 29 255"
-			"armedBgColor_override"		"98 161 19 255"
+            "paintbackground"						"0"
+			
+			"defaultFgColor_override"				"98 164 19 255"
+			"armedFgColor_override"     			"148 248 29 255"
+			
+			"image_armed"							"replay/thumbnails/menu/disconnect_button"
+			"image_default"							"replay/thumbnails/menu/transparent"
+			"scaleImage"							"1"
+			
+			"SubImage"
+			{
+				"ControlName"						"ImagePanel"
+				"fieldName"							"SubImage"
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"1"
+				"wide"								"220"
+				"tall"								"18"
+				"visible"							"1"
+				"enabled"							"1"
+				"scaleImage"						"1"
+			}
         }
     }
 }

@@ -84,6 +84,12 @@
         "command" "OpenServerBrowser"
         "OnlyInGame"    "0"
     }
+	"CharacterSetupButton"
+    {
+        "label"    "WARDROBE"
+        "command" "engine open_charinfo"
+        "OnlyInGame"    "0"
+    }
 	"SettingsButton"
     {
         "label"    ""
