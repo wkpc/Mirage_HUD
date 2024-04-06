@@ -213,8 +213,8 @@
 		"xpos"			"0"
 		"ypos"			"rs0.99"
 		"zpos"			"-50"
-		"wide"			"960"
-		"tall"			"156"
+		"wide"			"f0"
+		"tall"			"140"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/menu/main_menu_bottom_panel"
@@ -2277,7 +2277,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"FindGameButton"
-		"xpos"										"r220"
+		"xpos"										"r230"
 		"ypos"										"r110"
 		"zpos"										"3"
 		"wide"										"220"
@@ -2331,11 +2331,15 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"CharacterSetupButton"
-		"xpos"										"r220"
-		"ypos"										"r88"
+		"xpos"										"0"
+		"ypos"										"3"
 		"zpos"										"3"
 		"wide"										"220"
 		"tall"										"18"
+		
+		"pin_to_sibling"							"FindGameButton"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
 		SubButton
 		{
@@ -2385,12 +2389,16 @@
     {
         "ControlName"                               "EditablePanel"
         "fieldname"                                 "QuitButton2"
-        "xpos"                                      "r220"
-        "ypos"                                      "r66"
+        "xpos"                                      "0"
+        "ypos"                                      "3"
         "zpos"                                      "3"
         "wide"                                      "220"
         "tall"                                      "18"
 
+		"pin_to_sibling"							"CharacterSetupButton"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
+		
         "SubButton"
         {
             "ControlName"							"CExImageButton"
@@ -2439,11 +2447,15 @@
     {
         "ControlName"								"EditablePanel"
         "fieldname"                                 "DisconnectButton2"
-        "xpos"                                      "r220"
-        "ypos"                                      "r66"
+        "xpos"                                      "0"
+        "ypos"                                      "3"
         "zpos"                                      "3"
         "wide"                                      "220"
         "tall"                                      "18"
+		
+		"pin_to_sibling"							"CharacterSetupButton"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 
         "SubButton"
         {
@@ -2489,4 +2501,94 @@
 			}
         }
     }
+	
+	//the spinning circle around the big buttons, is split into 4 sections
+	"MenuSpinLeftT"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MenuSpinLeftT"
+		"xpos"										"0"
+		"ypos"										"50"
+		"zpos"										"2"
+		"wide"										"80"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menu_spin_animation_tleft"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"FindGameButton"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+	"MenuSpinRightT"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MenuSpinRightT"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"80"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menu_spin_animation_tright"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"MenuSpinLeftT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
+	"MenuSpinLeftB"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MenuSpinLeftB"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"80"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menu_spin_animation_bleft"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"MenuSpinLEFTT"
+		"pin_corner_to_sibling"						"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMRIGHT"
+	}
+	"MenuSpinRightB"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"MenuSpinRightB"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"80"
+		"tall"										"80"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menu_spin_animation_bright"
+		"scaleimage"								"1"
+		
+		"pin_to_sibling"							"MenuSpinRightT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_BOTTOMLEFT"
+	}
+	
+	//the small white text in the bottom center of the main menu
+	"CreditsText"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CreditsText"
+		"xpos"										"cs-0.5"
+		"ypos"										"r60"
+		"zpos"										"99"
+		"wide"										"270"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menu_credits_text"
+		"scaleimage"								"1"
+	}
 }

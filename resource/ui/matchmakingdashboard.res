@@ -794,8 +794,8 @@
 
 			"defaultFgColor_override" "HudWhite"
 			"armedFgColor_override" "HudWhite"
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"200 200 200 196"
+			"image_drawcolor"	"200 200 200 196"
+			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
 			{
@@ -804,13 +804,13 @@
 				"xpos"			"6"
 				"ypos"			"10"
 				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"glyph_multiplayer"
+				"image"			"replay/thumbnails/menu/glyph_matchmaking"
 				"drawcolor_override" "TanLight"
 			}
 		}
