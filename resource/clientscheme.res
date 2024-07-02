@@ -3055,7 +3055,7 @@ Scheme
 			"1"
 			{
 				"name"		"Cavier Dreams Italic"
-				"tall"		"11"
+				"tall"		"20"
 				"antialias" "1"
 			}
 		}
@@ -3065,6 +3065,36 @@ Scheme
 			"1"
 			{
 				"name"		"LEMON MILK Regular"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		
+		footerText
+		{
+			"1"
+			{
+				"name"		"Nexa Extra Light"
+				"tall"		"17"
+				"antialias" "1"
+			}
+		}
+		
+		notificationText
+		{
+			"1"
+			{
+				"name"		"Roboto-Condensed"
+				"tall"		"11"
+				"antialias" "1"
+			}
+		}
+		
+		backgroundTitleText
+		{
+			"1"
+			{
+				"name"		"Louis George Cafe Italic"
 				"tall"		"25"
 				"antialias" "1"
 			}
@@ -5900,6 +5930,16 @@ Scheme
 		{
 			"font" "resource/fonts/LEMONMILK-Regular.ttf"
 			"name" "LEMON MILK Regular"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Nexa-ExtraLight.ttf"
+			"name" "Nexa Extra Light"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Louis George Cafe Italic.ttf"
+			"name" "Louis George Cafe Italic"
 		}
 	}
 }
