@@ -225,7 +225,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"Font"				"HudFontSmallestBold"
+		"font"				"regularText"
 		"wrap"				"0"
 		"xpos"				"c-190"
 		"ypos"				"37"
@@ -250,76 +250,14 @@
 		"selectionColor_override" "0 0 0 0"
 		"selectionTextColor_override" "0 0 0 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
-	}	
-	
-	"ShowBaseItemsCheckbox"
-	{
-		"ControlName"		"CheckButton"
-		"fieldName"			"ShowBaseItemsCheckbox"
-		"labelText"			"#ShowBaseItemsCheckBox"
-		"Font"				"HudFontSmallestBold"
-		"textAlignment"		"east"
-		"xpos"				"c+50"
-		"ypos"				"59"
-		"zpos"				"1"
-		"wide"				"200"
-		"tall"				"18"
-		"visible"			"1"
-		"enabled"			"1"
-		"fgcolor_override"			"255 255 255 255"
-		"image_drawcolor"	"255 255 255 255"
-	}
-	
-	"NameFilterLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"NameFilterLabel"
-		"font"				"HudFontSmallestBold"
-		"labelText"			"#Store_NameFilterLabel"
-		"textAlignment"		"west"
-		"xpos"				"c-170"
-		"ypos"				"59"
-		"zpos"				"1"
-		"wide"				"60"
-		"tall"				"20"
-		"autoResize"		"1"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fgcolor"			"255 255 255 255"
-	}
-
-	"NameFilterTextEntry"
-	{
-		"ControlName"		"TextEntry"
-		"fieldName"			"NameFilterTextEntry"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"85"
-		"tall"				"17"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"1"
-		"textHidden"		"0"
-		"editable"			"1"
-		"unicode"			"1"
-		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"255 255 255 255"
-		"paintbackgroundtype" "2"
-		"font"				"HudFontSmallest"
-		
-		"pin_to_sibling"							"NameFilterLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 	}
 	
 	"SortByComboBox"
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"Font"				"HudFontSmallestBold"
+		"font"				"regularText" //why wont this change??
+		"wrap"				"0"
 		"xpos"				"c40"
 		"ypos"				"37"
 		"zpos"				"1"
@@ -343,8 +281,69 @@
 		"selectionColor_override" "0 0 0 0"
 		"selectionTextColor_override" "0 0 0 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
-	}	
+	}
+	
+	"ShowBaseItemsCheckbox"
+	{
+		"ControlName"		"CheckButton"
+		"fieldName"			"ShowBaseItemsCheckbox"
+		"labelText"			"#ShowBaseItemsCheckBox"
+		"Font"				"regularText"
+		"textAlignment"		"east"
+		"xpos"				"c+50"
+		"ypos"				"59"
+		"zpos"				"1"
+		"wide"				"200"
+		"tall"				"18"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"255 0 0 255"
+	}
+	
+	"NameFilterLabel"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"NameFilterLabel"
+		"font"				"regularText"
+		"labelText"			"#Store_NameFilterLabel"
+		"textAlignment"		"west"
+		"xpos"				"c-170"
+		"ypos"				"59"
+		"zpos"				"1"
+		"wide"				"50"
+		"tall"				"20"
+		"autoResize"		"1"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"255 255 255 255"
+	}
 
+	"NameFilterTextEntry"
+	{
+		"ControlName"								"TextEntry"
+		"fieldName"									"NameFilterTextEntry"
+		"xpos"										"0"
+		"ypos"										"-1"
+		"wide"										"85"
+		"tall"										"16"
+		"autoResize"								"0"
+		"pinCorner"									"0"
+		"visible"									"1"
+		"enabled"									"1"
+		"tabPosition"								"1"
+		"textHidden"								"0"
+		"editable"									"1"
+		"unicode"									"1"
+		"fgcolor_override"							"0 0 0 255"
+		"bgcolor_override"							"255 255 255 255"
+		"paintbackgroundtype" 						"2"
+		"font"										"regularText"
+		
+		"pin_to_sibling"							"NameFilterLabel"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
+	}
 	
 	"mouseoveritempanel"
 	{

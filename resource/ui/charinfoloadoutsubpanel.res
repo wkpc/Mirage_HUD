@@ -68,16 +68,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -134,16 +134,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -203,16 +203,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -272,16 +272,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -344,16 +344,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -416,16 +416,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -485,17 +485,17 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/menu/medic_loadout_image"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"image"									"replay/thumbnails/menu/medic_loadout_image"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -558,16 +558,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	
@@ -630,16 +630,16 @@
 		
 		"SubImage"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"103"
-			"tall"			"391"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"103"
+			"tall"									"391"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
 		}
 	}
 	

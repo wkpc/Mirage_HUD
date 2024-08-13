@@ -132,7 +132,7 @@
 		"textAlignment"								"west"
 		"xpos"										"r165"
 		"ypos"										"15"
-		"zpos"										"999" //1
+		"zpos"										"1"
 		"wide"										"240"
 		"tall"										"25"
 		"autoResize"								"0"

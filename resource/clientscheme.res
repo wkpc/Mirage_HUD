@@ -3044,8 +3044,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
-				"tall"		"18"
+				"name"		"Nexa Extra Light"
+				"tall"		"14"
 				"antialias" "1"
 			}
 		}
