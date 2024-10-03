@@ -3075,7 +3075,7 @@ Scheme
 			"1"
 			{
 				"name"		"Nexa Extra Light"
-				"tall"		"17"
+				"tall"		"16"
 				"antialias" "1"
 			}
 		}

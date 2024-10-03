@@ -256,7 +256,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
-		"font"				"regularText" //why wont this change??
+		"fontoverride"				"regularText" //why wont this change??
 		"wrap"				"0"
 		"xpos"				"c40"
 		"ypos"				"37"

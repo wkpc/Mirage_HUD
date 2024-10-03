@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture"	"vgui/replay/thumbnails/menu/party_chat_icon"
+	"$basetexture"	"vgui/replay/thumbnails/menu/party_chat_icon_inactive"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"
