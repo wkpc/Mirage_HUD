@@ -937,7 +937,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"f0"
-		"tall"										"400"
+		"tall"										"480"
 		"zpos"										"500"
 		"visible"									"0"
 	}

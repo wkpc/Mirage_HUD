@@ -3040,6 +3040,16 @@ Scheme
 			}
 		}
 		
+		notificationCountText
+		{
+			"1"
+			{
+				"name"		"TT Rounds Neue Trial Medium"
+				"tall"		"17"
+				"antialias" "1"
+			}
+		}
+		
 		regularText
 		{
 			"1"
@@ -5940,6 +5950,11 @@ Scheme
 		{
 			"font" "resource/fonts/Louis George Cafe Italic.ttf"
 			"name" "Louis George Cafe Italic"
+		}
+		"14"
+		{
+			"font" "resource/fonts/TT Rounds Neue Trial Medium.ttf"
+			"name" "TT Rounds Neue Trial Medium"
 		}
 	}
 }

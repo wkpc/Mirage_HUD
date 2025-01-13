@@ -19,7 +19,7 @@
 		"title"										"#CharInfoAndSetup"
 		"title_font"								""
 		"titletextinsetX"							"40"
-		"titletextinsetY"							"-33"
+		"titletextinsetY"							"-22"
 		"titlebarfgcolor_override"					"Blank"
 		"titlebardisabledfgcolor_override"			"Blank"
 		"titlebarbgcolor_override"					"Blank"

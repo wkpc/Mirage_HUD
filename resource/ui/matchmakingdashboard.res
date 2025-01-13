@@ -9,11 +9,11 @@
 		"ypos"					"-5"
 		"zpos"					"10001"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"40"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"50"
+		"expanded_height"	"40"
 		"resize_time"		"0.2"
 	}
 
